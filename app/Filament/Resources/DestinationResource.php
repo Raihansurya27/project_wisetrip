@@ -85,7 +85,7 @@ class DestinationResource extends Resource implements HasShieldPermissions
                                 ->reactive(),
                             Forms\Components\Select::make('city_code')
                                 ->options(function ($get, $set, $record) {
-                                    if ($get('district_code') != null) {
+                                    if ($record != null && $get('district_code') != null) {
                                         return City::where('province_code', $record->village->district->city->province->code)->pluck('name', 'code');
                                     }
                                     return City::where('province_code', $get('province_code'))->pluck('name', 'code');
