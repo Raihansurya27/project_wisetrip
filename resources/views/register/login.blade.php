@@ -60,7 +60,6 @@
                             <label for="signup-password">Password</label>
                             <input id="signup-password" type="password" required>
                         </div>
-
                     </fieldset>
                     <button type="submit" class="btn-signup">Continue</button>
                 </form>

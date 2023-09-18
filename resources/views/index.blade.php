@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('content')
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/Museum_Adityawarman_20211213.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/rh.jpg');">
         <div class="overlay"></div>
     </div>
     <!-- INFORMASI ADAT -->
